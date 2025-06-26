@@ -42,8 +42,8 @@ namespace XadrezConole
                     }
 
                 }
-
-                Tela.ImprimirTabuleiro(partida.tab);
+                Console.Clear();
+                Tela.imprimirPartida(partida);
             }
             catch (TabuleiroException e)
             {
